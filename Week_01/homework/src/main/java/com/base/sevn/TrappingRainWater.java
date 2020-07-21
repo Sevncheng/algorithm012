@@ -1,7 +1,5 @@
 package com.base.sevn;
 
-import org.junit.jupiter.api.Test;
-
 public class TrappingRainWater {
 
     /**
@@ -32,10 +30,5 @@ public class TrappingRainWater {
         }
 
         return area;
-    }
-
-    @Test
-    public void test() {
-        trap(new int[]{2, 0 ,2});
     }
 }
