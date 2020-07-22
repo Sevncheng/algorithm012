@@ -13,8 +13,7 @@ public class MoveZeroes {
             if (nums[i] != 0) {
                 int temp = nums[i];
                 nums[i] = nums[current];
-                nums[current] = temp;
-                current++;
+                nums[current++] = temp;
             }
         }
 
